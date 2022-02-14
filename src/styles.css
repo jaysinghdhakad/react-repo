@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  z-index: 0;
+}
+.topbar {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.topbar > .heading {
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.topbar > .addMembers {
+  background-color: #4c73fd;
+  border: none;
+  height: 2rem;
+  border-radius: 20px;
+  padding-top: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.addMembers > .add {
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.table > .item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9fafb;
+}
+.item > .blocks {
+  width: 20%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.item > .block {
+  width: 20%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-basis: 40%;
+}
+.table > .list-items {
+  display: flex;
+
+  justify-content: space-evenly;
+  background-color: #f9fafb;
+}
+.list-items > .basic {
+  width: 20%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.list-items > .basics {
+  width: 20%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-basis: 40%;
+}
+.basics > .icon {
+  height: 1rem;
+  padding-right: 30px;
+}
